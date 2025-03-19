@@ -28,38 +28,30 @@ Un divertido juego para elegir un amigo secreto al azar, entre una lista de nomb
 
 1. Clona el repositorio:
    ```bash
-   [git clone https://github.com/tu-usuario/challenge-amigo-secreto.git](https://github.com/Edygan/rifa-aleatoria-amigo-secreto)
+   https://github.com/tu-usuario/challenge-amigo-secreto.git](https://github.com/Edygan/rifa-aleatoria-amigo-secreto)
    ```
 2. Abre el archivo `index.html` en tu navegador.
 
----ar participantes**:
+---contar participantes**:
    - Introduce el número de participantes y presiona "Confirmar".
 
 ## 🎮 Cómo Usar
 
-1. **Configur
+1. *Configurar cantidad* 
+![Screenshot 2025-03-18 192229](https://github.com/user-attachments/assets/7a9e5a76-389c-4e2d-8f27-983c1b5743db)
 
-2. **Agregar nombres**:
+
+2. *Agregar nombres*:
    - Escribe un nombre en el campo de texto y presiona "Añadir".
+![Screenshot 2025-03-18 192326](https://github.com/user-attachments/assets/1ffcf79f-7928-41ec-b579-9808ebe59fe2)
 
 3. **Realizar el sorteo**:
    - Presiona "Sortear amigo" para elegir un ganador.
+   - ![Screenshot 2025-03-18 192426](https://github.com/user-attachments/assets/b82a402c-6351-4040-bf1f-b6b467b2b0f2)
+
 
 4. **Reiniciar**:
    - Presiona "Reiniciar" para empezar de nuevo.
 
 ---
-
-## 📸 Capturas de Pantalla
-
-Puedes agregar imágenes al README utilizando la siguiente sintaxis en Markdown:
-
-```markdown
-![Descripción de la imagen](ruta/a/la/imagen.png)
-```
-
-Ejemplo
-
----
-
 ¡Disfruta usando **Challenge Amigo Secreto**! 🎊
