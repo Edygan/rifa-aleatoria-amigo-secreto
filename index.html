@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Amigo Secreto</title>
+</head>
+<body>
+    <main class="main-content">
+        <!-- encabezado con el título y la imagen del juego -->
+        <header class="header-banner">
+            <h1 class="main-title">Challenge Amigo Secreto</h1>
+            <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
+        </header>
+        
+        <!-- Sección para configurar el número de participantes -->
+        <section class="setup-section">
+            <h2 class="section-title">Configurar número de participantes</h2>
+            <input type="number" id="maxParticipantes" min="2" max="10" placeholder="Máximo 10">
+            <button class="button-set" onclick="configurarParticipantes()">Confirmar</button>
+        </section>
+
+        <!-- Sección para agregar nombres de los participantes -->
+        <section class="input-section">
+            <h2 class="section-title">Agregar nombres</h2>
+            <div class="input-wrapper">
+                <input type="text" id="amigo" placeholder="Escribe un nombre">
+                <button class="button-add" onclick="agregarAmigo()">Añadir</button>
+            </div>
+            
+            <!-- Lista donde se mostrarán los nombres agregados -->
+            <ul id="listaAmigos" class="name-list"></ul>
+            
+            <!-- Lista donde se mostrará el resultado del sorteo -->
+            <ul id="resultado" class="result-list"></ul>
+            
+            <!-- Botones para realizar el sorteo y reiniciar el juego -->
+            <div class="button-container">
+                <button class="button-draw" onclick="sortearAmigo()">Sortear amigo</button>
+                <button class="button-reset" onclick="reiniciarJuego()">Reiniciar</button>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Archivo JavaScript para la lógica del juego -->
+    <script src="app.js" defer></script>
+</body>
+</html>
