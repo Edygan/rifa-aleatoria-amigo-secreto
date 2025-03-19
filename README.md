@@ -38,6 +38,7 @@ Un divertido juego para elegir un amigo secreto al azar, entre una lista de nomb
 ## 🎮 Cómo Usar
 
 1. *Configurar cantidad* 
+
 ![Screenshot 2025-03-18 192229](https://github.com/user-attachments/assets/7a9e5a76-389c-4e2d-8f27-983c1b5743db)
 
 
@@ -52,6 +53,7 @@ Un divertido juego para elegir un amigo secreto al azar, entre una lista de nomb
 
 4. **Reiniciar**:
    - Presiona "Reiniciar" para empezar de nuevo.
+![Screenshot 2025-03-18 192239](https://github.com/user-attachments/assets/7c2233b0-a8e6-4185-b0c7-70aa7463e20f)
 
 ---
 ¡Disfruta usando **Challenge Amigo Secreto**! 🎊
